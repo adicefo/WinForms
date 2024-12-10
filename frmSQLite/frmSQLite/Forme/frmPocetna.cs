@@ -41,7 +41,7 @@ namespace frmSQLite.Forme_Reporti
             var poruka = MessageBox.Show("Zelite li ugasiti formu?","Warning",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
             if (poruka == DialogResult.Yes)
             {
-                 var poruka2 = MessageBox.Show("Neki podaci mozda nece biti spremljeni."+Environment.NewLine+"Zelite li sigurno ugasiti aplikaciju?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                 var poruka2 = MessageBox.Show("Neki podaci mozda nece biti spremljeni. "+Environment.NewLine+"Zelite li sigurno ugasiti aplikaciju?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                  if( poruka2 == DialogResult.Yes)
                     Application.Exit();
             }
