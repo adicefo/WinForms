@@ -57,7 +57,7 @@ namespace frmSQLite
 
         private void btnDodajPolozeniđ_Click(object sender, EventArgs e)
         {
-            if (NePostojiPredmet())
+            if (NePostojiPredmet()&&Validiraj())
             {
                 var obj = new StudentiPredmeti()
                 {
@@ -73,10 +73,15 @@ namespace frmSQLite
                 UcitajPolozenePredmete();
             }
             else
-                MessageBox.Show("Predmet vec postoji", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Predmet vec postoji ili unesite validnu ocjenu i datum", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
 
 
+        }
+
+        private bool Validiraj()
+        {
+            return cmbOcjene.Text.Length > 0 && dateTimePicker1.Value < DateTime.Now;
         }
 
 
