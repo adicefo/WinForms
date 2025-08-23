@@ -124,7 +124,7 @@
             // 
             // txtImePrezime
             // 
-            this.txtImePrezime.Location = new System.Drawing.Point(276, 50);
+            this.txtImePrezime.Location = new System.Drawing.Point(266, 50);
             this.txtImePrezime.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.txtImePrezime.Name = "txtImePrezime";
             this.txtImePrezime.Size = new System.Drawing.Size(165, 26);
@@ -133,7 +133,7 @@
             // cmbSpol
             // 
             this.cmbSpol.FormattingEnabled = true;
-            this.cmbSpol.Location = new System.Drawing.Point(504, 50);
+            this.cmbSpol.Location = new System.Drawing.Point(518, 49);
             this.cmbSpol.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.cmbSpol.Name = "cmbSpol";
             this.cmbSpol.Size = new System.Drawing.Size(80, 28);
@@ -141,13 +141,14 @@
             // 
             // btnAddStudent
             // 
-            this.btnAddStudent.BackColor = System.Drawing.Color.Lime;
-            this.btnAddStudent.Location = new System.Drawing.Point(666, 43);
+            this.btnAddStudent.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnAddStudent.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAddStudent.Location = new System.Drawing.Point(716, 45);
             this.btnAddStudent.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.btnAddStudent.Name = "btnAddStudent";
             this.btnAddStudent.Size = new System.Drawing.Size(117, 37);
             this.btnAddStudent.TabIndex = 4;
-            this.btnAddStudent.Text = "Dodaj";
+            this.btnAddStudent.Text = "Filter";
             this.btnAddStudent.UseVisualStyleBackColor = false;
             this.btnAddStudent.Click += new System.EventHandler(this.btnAddStudent_Click);
             // 
@@ -174,7 +175,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(514, 15);
+            this.label3.Location = new System.Drawing.Point(535, 15);
             this.label3.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 20);

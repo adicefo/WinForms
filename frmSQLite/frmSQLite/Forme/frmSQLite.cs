@@ -72,22 +72,14 @@ namespace frmSQLite
 
         private void btnAddStudent_Click(object sender, EventArgs e)
         {
-            if(Validacija()&&!PostojiStudent())
-            {
-                var noviStudent = new Student()
-                {
-                    BrojIndeksa=txtBrojIndeksa.Text,
-                    ImePrezime=txtImePrezime.Text,
-                    Spol=cmbSpol.SelectedItem as Spol ,
-                };
-                db.Studenti.Add(noviStudent);
-                db.SaveChanges();
-                MessageBox.Show("Uspjesno dodan student", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                UcitajStudente();
-            }
-            else
-                MessageBox.Show("Greska pri dodavanju","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            var filterStudenti = db.Studenti.Include("Spol").ToList();
+            if (cmbSpol.SelectedItem != null)
+                filterStudenti = filterStudenti.Where(s => s.Spol.Naziv == cmbSpol.Text).ToList();
+            if(txtImePrezime.Text.Length > 0)
+                filterStudenti = filterStudenti.Where(s => s.ImePrezime.StartsWith(txtImePrezime.Text)).ToList();
+            if (txtBrojIndeksa.Text.Length > 0)
+                filterStudenti = filterStudenti.Where(s => s.BrojIndeksa == txtBrojIndeksa.Text).ToList();
+            dataGridView1.DataSource= filterStudenti;
         }
 
         private bool PostojiStudent()
@@ -97,13 +89,6 @@ namespace frmSQLite
             s.BrojIndeksa == txtBrojIndeksa.Text).Any();
         }
 
-        private bool Validacija()
-        {
-            return !string.IsNullOrWhiteSpace(txtBrojIndeksa.Text)
-                && !string.IsNullOrWhiteSpace(txtImePrezime.Text)
-                && (cmbSpol.Text == "Muski" || cmbSpol.Text == "Zenski");
-                
-
-        }
+      
     }
 }
