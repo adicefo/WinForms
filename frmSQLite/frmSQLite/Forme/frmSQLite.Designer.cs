@@ -41,6 +41,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnAddStudent2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,7 +117,7 @@
             // 
             // txtBrojIndeksa
             // 
-            this.txtBrojIndeksa.Location = new System.Drawing.Point(15, 50);
+            this.txtBrojIndeksa.Location = new System.Drawing.Point(15, 46);
             this.txtBrojIndeksa.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.txtBrojIndeksa.Name = "txtBrojIndeksa";
             this.txtBrojIndeksa.Size = new System.Drawing.Size(165, 26);
@@ -124,7 +125,7 @@
             // 
             // txtImePrezime
             // 
-            this.txtImePrezime.Location = new System.Drawing.Point(266, 50);
+            this.txtImePrezime.Location = new System.Drawing.Point(266, 46);
             this.txtImePrezime.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.txtImePrezime.Name = "txtImePrezime";
             this.txtImePrezime.Size = new System.Drawing.Size(165, 26);
@@ -133,7 +134,7 @@
             // cmbSpol
             // 
             this.cmbSpol.FormattingEnabled = true;
-            this.cmbSpol.Location = new System.Drawing.Point(518, 49);
+            this.cmbSpol.Location = new System.Drawing.Point(518, 45);
             this.cmbSpol.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.cmbSpol.Name = "cmbSpol";
             this.cmbSpol.Size = new System.Drawing.Size(80, 28);
@@ -143,7 +144,7 @@
             // 
             this.btnAddStudent.BackColor = System.Drawing.Color.SteelBlue;
             this.btnAddStudent.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnAddStudent.Location = new System.Drawing.Point(716, 45);
+            this.btnAddStudent.Location = new System.Drawing.Point(684, 41);
             this.btnAddStudent.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.btnAddStudent.Name = "btnAddStudent";
             this.btnAddStudent.Size = new System.Drawing.Size(117, 37);
@@ -182,11 +183,23 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Spol";
             // 
+            // btnAddStudent2
+            // 
+            this.btnAddStudent2.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnAddStudent2.Location = new System.Drawing.Point(828, 42);
+            this.btnAddStudent2.Name = "btnAddStudent2";
+            this.btnAddStudent2.Size = new System.Drawing.Size(117, 35);
+            this.btnAddStudent2.TabIndex = 8;
+            this.btnAddStudent2.Text = "Dodaj";
+            this.btnAddStudent2.UseVisualStyleBackColor = false;
+            this.btnAddStudent2.Click += new System.EventHandler(this.btnAddStudent2_Click);
+            // 
             // frmSQLite
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(996, 530);
+            this.ClientSize = new System.Drawing.Size(997, 530);
+            this.Controls.Add(this.btnAddStudent2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -220,6 +233,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ImePrezime;
         private System.Windows.Forms.DataGridViewTextBoxColumn Spol;
         private System.Windows.Forms.DataGridViewButtonColumn Pokreni;
+        private System.Windows.Forms.Button btnAddStudent2;
     }
 }
 

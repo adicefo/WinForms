@@ -9,6 +9,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|c:\\users\\adice\\onedrive\\desktop\\vs kodovi\\c#\\winforms\\frmsqlite\\frmsqlite\\forme\\frmsqlite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|solutionrelative:frmsqlite\\forme\\frmsqlite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|c:\\users\\adice\\onedrive\\desktop\\vs kodovi\\c#\\winforms\\frmsqlite\\frmsqlite\\forme\\frmsqlite.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|solutionrelative:frmsqlite\\forme\\frmsqlite.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|c:\\users\\adice\\onedrive\\desktop\\vs kodovi\\c#\\winforms\\frmsqlite\\frmsqlite\\forme\\frmpocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|solutionrelative:frmsqlite\\forme\\frmpocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|c:\\users\\adice\\onedrive\\desktop\\vs kodovi\\c#\\winforms\\frmsqlite\\frmsqlite\\forme\\frmdodaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|solutionrelative:frmsqlite\\forme\\frmdodaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|c:\\users\\adice\\onedrive\\desktop\\vs kodovi\\c#\\winforms\\frmsqlite\\frmsqlite\\forme\\frmdodaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|solutionrelative:frmsqlite\\forme\\frmdodaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|c:\\users\\adice\\onedrive\\desktop\\vs kodovi\\c#\\winforms\\frmsqlite\\frmsqlite\\forme\\frmpolozenipredmeti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|solutionrelative:frmsqlite\\forme\\frmpolozenipredmeti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|c:\\users\\adice\\onedrive\\desktop\\vs kodovi\\c#\\winforms\\frmsqlite\\frmsqlite\\forme\\frmpolozenipredmeti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|solutionrelative:frmsqlite\\forme\\frmpolozenipredmeti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|c:\\users\\adice\\onedrive\\desktop\\vs kodovi\\c#\\winforms\\frmsqlite\\frmsqlite\\forme\\frmpocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{186BE34D-4D43-44EA-A6C4-FC86215ACFF5}|frmSQLite\\SQLiteDBConnection.csproj|solutionrelative:frmsqlite\\forme\\frmpocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +46,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmDodaj.cs",
+              "DocumentMoniker": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmDodaj.cs",
+              "RelativeDocumentMoniker": "frmSQLite\\Forme\\frmDodaj.cs",
+              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmDodaj.cs",
+              "RelativeToolTip": "frmSQLite\\Forme\\frmDodaj.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwC4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:15:06.604Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -38,13 +80,88 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmSQLite.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmSQLite.Designer.cs",
+              "RelativeDocumentMoniker": "frmSQLite\\Forme\\frmSQLite.Designer.cs",
+              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmSQLite.Designer.cs",
+              "RelativeToolTip": "frmSQLite\\Forme\\frmSQLite.Designer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwEQAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:38:08.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmPolozeniPredmeti.cs",
+              "DocumentMoniker": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmPolozeniPredmeti.cs",
+              "RelativeDocumentMoniker": "frmSQLite\\Forme\\frmPolozeniPredmeti.cs",
+              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmPolozeniPredmeti.cs",
+              "RelativeToolTip": "frmSQLite\\Forme\\frmPolozeniPredmeti.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAA7wEcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:26:43.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmPolozeniPredmeti.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmPolozeniPredmeti.cs",
+              "RelativeDocumentMoniker": "frmSQLite\\Forme\\frmPolozeniPredmeti.cs",
+              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmPolozeniPredmeti.cs [Design]",
+              "RelativeToolTip": "frmSQLite\\Forme\\frmPolozeniPredmeti.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:26:41.931Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPocetna.cs",
+              "DocumentMoniker": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmPocetna.cs",
+              "RelativeDocumentMoniker": "frmSQLite\\Forme\\frmPocetna.cs",
+              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmPocetna.cs",
+              "RelativeToolTip": "frmSQLite\\Forme\\frmPocetna.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAnwBsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:17:49.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmPocetna.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmPocetna.cs",
+              "RelativeDocumentMoniker": "frmSQLite\\Forme\\frmPocetna.cs",
+              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmPocetna.cs [Design]",
+              "RelativeToolTip": "frmSQLite\\Forme\\frmPocetna.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:17:47.19Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmDodaj.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmDodaj.cs",
+              "RelativeDocumentMoniker": "frmSQLite\\Forme\\frmDodaj.cs",
+              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmDodaj.cs [Design]",
+              "RelativeToolTip": "frmSQLite\\Forme\\frmDodaj.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T22:09:32.916Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmSQLite.cs",
               "DocumentMoniker": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmSQLite.cs",
               "RelativeDocumentMoniker": "frmSQLite\\Forme\\frmSQLite.cs",
-              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmSQLite.cs*",
-              "RelativeToolTip": "frmSQLite\\Forme\\frmSQLite.cs*",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAE4AAABnAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmSQLite.cs",
+              "RelativeToolTip": "frmSQLite\\Forme\\frmSQLite.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwGEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-23T21:38:26.413Z",
               "EditorCaption": ""
@@ -55,8 +172,8 @@
               "Title": "frmSQLite.cs [Design]",
               "DocumentMoniker": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmSQLite.cs",
               "RelativeDocumentMoniker": "frmSQLite\\Forme\\frmSQLite.cs",
-              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmSQLite.cs [Design]*",
-              "RelativeToolTip": "frmSQLite\\Forme\\frmSQLite.cs [Design]*",
+              "ToolTip": "C:\\Users\\adice\\OneDrive\\Desktop\\VS KODOVI\\C#\\WinForms\\frmSQLite\\frmSQLite\\Forme\\frmSQLite.cs [Design]",
+              "RelativeToolTip": "frmSQLite\\Forme\\frmSQLite.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-23T21:38:26.634Z",
               "EditorCaption": " [Design]"

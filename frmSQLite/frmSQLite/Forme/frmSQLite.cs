@@ -1,5 +1,6 @@
 ﻿using frmSQLite.Classes;
 using frmSQLite.DB;
+using frmSQLite.Forme;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,7 +28,7 @@ namespace frmSQLite
         private void Form1_Load(object sender, EventArgs e)
         {
             this.CenterToScreen();
-            this.Size = new Size(650, 400);
+            this.Size = new Size(700, 400);
             try
             {
                 UcitajStudente();
@@ -82,13 +83,21 @@ namespace frmSQLite
             dataGridView1.DataSource= filterStudenti;
         }
 
-        private bool PostojiStudent()
+       
+
+        private void btnAddStudent2_Click(object sender, EventArgs e)
         {
-            return db.Studenti.Where(s => 
-            s.ImePrezime == txtImePrezime.Text ||
-            s.BrojIndeksa == txtBrojIndeksa.Text).Any();
+            var forma = new frmDodaj();
+
+            
+            forma.FormClosed += (s, args) =>
+            {
+                UcitajStudente();
+            };
+
+            forma.ShowDialog();
         }
 
-      
+        
     }
 }

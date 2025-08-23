@@ -46,29 +46,30 @@ namespace frmSQLite.Forme_Reporti
             this.closeToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1894, 61);
+            this.menuStrip2.Size = new System.Drawing.Size(1894, 33);
             this.menuStrip2.TabIndex = 0;
             this.menuStrip2.Text = "menuStrip2";
+            this.menuStrip2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openSQLiteFormToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(103, 57);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(54, 29);
             this.toolStripMenuItem1.Text = "File";
             // 
             // openSQLiteFormToolStripMenuItem
             // 
             this.openSQLiteFormToolStripMenuItem.Name = "openSQLiteFormToolStripMenuItem";
-            this.openSQLiteFormToolStripMenuItem.Size = new System.Drawing.Size(538, 66);
+            this.openSQLiteFormToolStripMenuItem.Size = new System.Drawing.Size(251, 34);
             this.openSQLiteFormToolStripMenuItem.Text = "OpenSQLiteForm";
             this.openSQLiteFormToolStripMenuItem.Click += new System.EventHandler(this.openSQLiteFormToolStripMenuItem_Click);
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(134, 57);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(71, 29);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 

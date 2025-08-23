@@ -46,5 +46,10 @@ namespace frmSQLite.Forme_Reporti
                     Application.Exit();
             }
         }
+
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

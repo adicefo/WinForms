@@ -263,3 +263,4 @@ C:\Users\adice\OneDrive\Desktop\VS KODOVI\C#\WinForms\frmSQLite\frmSQLite\obj\De
 C:\Users\adice\OneDrive\Desktop\VS KODOVI\C#\WinForms\frmSQLite\frmSQLite\obj\Debug\SQLiteDB.E8FC008C.Up2Date
 C:\Users\adice\OneDrive\Desktop\VS KODOVI\C#\WinForms\frmSQLite\frmSQLite\obj\Debug\frmSQLite.exe
 C:\Users\adice\OneDrive\Desktop\VS KODOVI\C#\WinForms\frmSQLite\frmSQLite\obj\Debug\frmSQLite.pdb
+C:\Users\adice\OneDrive\Desktop\VS KODOVI\C#\WinForms\frmSQLite\frmSQLite\obj\Debug\frmSQLite.Forme.frmDodaj.resources
