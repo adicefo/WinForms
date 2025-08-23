@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BrojIndeksa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ImePrezime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Spol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pokreni = new System.Windows.Forms.DataGridViewButtonColumn();
             this.txtBrojIndeksa = new System.Windows.Forms.TextBox();
             this.txtImePrezime = new System.Windows.Forms.TextBox();
             this.cmbSpol = new System.Windows.Forms.ComboBox();
@@ -36,16 +41,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BrojIndeksa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ImePrezime = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Spol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Pokreni = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AccessibleDescription = "Dodaj";
+            this.dataGridView1.AccessibleName = "Dodaj";
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeight = 69;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -64,6 +66,53 @@
             this.dataGridView1.Size = new System.Drawing.Size(983, 404);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 15;
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            this.ID.Width = 75;
+            // 
+            // BrojIndeksa
+            // 
+            this.BrojIndeksa.DataPropertyName = "BrojIndeksa";
+            this.BrojIndeksa.HeaderText = "BrojIndeksa";
+            this.BrojIndeksa.MinimumWidth = 15;
+            this.BrojIndeksa.Name = "BrojIndeksa";
+            this.BrojIndeksa.ReadOnly = true;
+            this.BrojIndeksa.Width = 150;
+            // 
+            // ImePrezime
+            // 
+            this.ImePrezime.DataPropertyName = "ImePrezime";
+            this.ImePrezime.HeaderText = "ImePrezime";
+            this.ImePrezime.MinimumWidth = 15;
+            this.ImePrezime.Name = "ImePrezime";
+            this.ImePrezime.ReadOnly = true;
+            this.ImePrezime.Width = 150;
+            // 
+            // Spol
+            // 
+            this.Spol.DataPropertyName = "Spol";
+            this.Spol.HeaderText = "Spol";
+            this.Spol.MinimumWidth = 15;
+            this.Spol.Name = "Spol";
+            this.Spol.ReadOnly = true;
+            this.Spol.Width = 150;
+            // 
+            // Pokreni
+            // 
+            this.Pokreni.DataPropertyName = "Dalje";
+            this.Pokreni.HeaderText = "Pokreni";
+            this.Pokreni.MinimumWidth = 15;
+            this.Pokreni.Name = "Pokreni";
+            this.Pokreni.ReadOnly = true;
+            this.Pokreni.Text = "";
+            this.Pokreni.UseColumnTextForButtonValue = true;
+            this.Pokreni.Width = 150;
             // 
             // txtBrojIndeksa
             // 
@@ -131,53 +180,6 @@
             this.label3.Size = new System.Drawing.Size(41, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "Spol";
-            // 
-            // ID
-            // 
-            this.ID.DataPropertyName = "ID";
-            this.ID.HeaderText = "ID";
-            this.ID.MinimumWidth = 15;
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            this.ID.Width = 75;
-            // 
-            // BrojIndeksa
-            // 
-            this.BrojIndeksa.DataPropertyName = "BrojIndeksa";
-            this.BrojIndeksa.HeaderText = "BrojIndeksa";
-            this.BrojIndeksa.MinimumWidth = 15;
-            this.BrojIndeksa.Name = "BrojIndeksa";
-            this.BrojIndeksa.ReadOnly = true;
-            this.BrojIndeksa.Width = 150;
-            // 
-            // ImePrezime
-            // 
-            this.ImePrezime.DataPropertyName = "ImePrezime";
-            this.ImePrezime.HeaderText = "ImePrezime";
-            this.ImePrezime.MinimumWidth = 15;
-            this.ImePrezime.Name = "ImePrezime";
-            this.ImePrezime.ReadOnly = true;
-            this.ImePrezime.Width = 150;
-            // 
-            // Spol
-            // 
-            this.Spol.DataPropertyName = "Spol";
-            this.Spol.HeaderText = "Spol";
-            this.Spol.MinimumWidth = 15;
-            this.Spol.Name = "Spol";
-            this.Spol.ReadOnly = true;
-            this.Spol.Width = 150;
-            // 
-            // Pokreni
-            // 
-            this.Pokreni.DataPropertyName = "Dalje";
-            this.Pokreni.HeaderText = "Pokreni";
-            this.Pokreni.MinimumWidth = 15;
-            this.Pokreni.Name = "Pokreni";
-            this.Pokreni.ReadOnly = true;
-            this.Pokreni.Text = "";
-            this.Pokreni.UseColumnTextForButtonValue = true;
-            this.Pokreni.Width = 150;
             // 
             // frmSQLite
             // 
