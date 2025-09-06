@@ -42,6 +42,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnAddStudent2 = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,7 +118,7 @@
             // 
             // txtBrojIndeksa
             // 
-            this.txtBrojIndeksa.Location = new System.Drawing.Point(15, 46);
+            this.txtBrojIndeksa.Location = new System.Drawing.Point(22, 53);
             this.txtBrojIndeksa.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.txtBrojIndeksa.Name = "txtBrojIndeksa";
             this.txtBrojIndeksa.Size = new System.Drawing.Size(165, 26);
@@ -125,7 +126,7 @@
             // 
             // txtImePrezime
             // 
-            this.txtImePrezime.Location = new System.Drawing.Point(266, 46);
+            this.txtImePrezime.Location = new System.Drawing.Point(271, 53);
             this.txtImePrezime.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.txtImePrezime.Name = "txtImePrezime";
             this.txtImePrezime.Size = new System.Drawing.Size(165, 26);
@@ -134,7 +135,7 @@
             // cmbSpol
             // 
             this.cmbSpol.FormattingEnabled = true;
-            this.cmbSpol.Location = new System.Drawing.Point(518, 45);
+            this.cmbSpol.Location = new System.Drawing.Point(479, 51);
             this.cmbSpol.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.cmbSpol.Name = "cmbSpol";
             this.cmbSpol.Size = new System.Drawing.Size(80, 28);
@@ -144,10 +145,10 @@
             // 
             this.btnAddStudent.BackColor = System.Drawing.Color.SteelBlue;
             this.btnAddStudent.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnAddStudent.Location = new System.Drawing.Point(684, 41);
+            this.btnAddStudent.Location = new System.Drawing.Point(733, 42);
             this.btnAddStudent.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(117, 37);
+            this.btnAddStudent.Size = new System.Drawing.Size(101, 37);
             this.btnAddStudent.TabIndex = 4;
             this.btnAddStudent.Text = "Filter";
             this.btnAddStudent.UseVisualStyleBackColor = false;
@@ -176,7 +177,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(535, 15);
+            this.label3.Location = new System.Drawing.Point(498, 15);
             this.label3.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 20);
@@ -186,19 +187,30 @@
             // btnAddStudent2
             // 
             this.btnAddStudent2.BackColor = System.Drawing.Color.SpringGreen;
-            this.btnAddStudent2.Location = new System.Drawing.Point(828, 42);
+            this.btnAddStudent2.Location = new System.Drawing.Point(856, 42);
             this.btnAddStudent2.Name = "btnAddStudent2";
-            this.btnAddStudent2.Size = new System.Drawing.Size(117, 35);
+            this.btnAddStudent2.Size = new System.Drawing.Size(99, 35);
             this.btnAddStudent2.TabIndex = 8;
             this.btnAddStudent2.Text = "Dodaj";
             this.btnAddStudent2.UseVisualStyleBackColor = false;
             this.btnAddStudent2.Click += new System.EventHandler(this.btnAddStudent2_Click);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Location = new System.Drawing.Point(617, 42);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(91, 37);
+            this.btnRefresh.TabIndex = 9;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // frmSQLite
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(997, 530);
+            this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnAddStudent2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -234,6 +246,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Spol;
         private System.Windows.Forms.DataGridViewButtonColumn Pokreni;
         private System.Windows.Forms.Button btnAddStudent2;
+        private System.Windows.Forms.Button btnRefresh;
     }
 }
 

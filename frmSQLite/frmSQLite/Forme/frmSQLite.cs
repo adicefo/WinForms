@@ -98,6 +98,12 @@ namespace frmSQLite
             forma.ShowDialog();
         }
 
-        
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            txtBrojIndeksa.Text = "";
+            txtImePrezime.Text = "";
+            cmbSpol.SelectedIndex = 0;
+            UcitajStudente();
+        }
     }
 }
